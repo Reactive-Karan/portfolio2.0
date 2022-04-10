@@ -8,6 +8,7 @@ import ChillPe from "../../../resources/chillpe.webp";
 import GoApp from "../../../resources/GoApp.jpg";
 import PactPharma from "../../../resources/pact-oharma.jpg";
 import A1Cards from "../../../resources/a1card.jpg";
+import "./Projects.css";
 
 function Projects() {
   return (
