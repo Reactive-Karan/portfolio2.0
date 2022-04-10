@@ -1,0 +1,33 @@
+:root {
+  --primaryFont: Montserrat;
+  --secondaryFont: Fraunces;
+  --backgroundColor: #ffffff;
+  --secondaryBackgroundColor: #f9f9f9;
+  --mediumFontSize: 30px;
+  --smallFontSize: 15px;
+  --regularFontSize: 18px;
+  --largeFontSize: 24px;
+  --bigFontSize: 34px;
+  --mobileFontSize: 14px;
+  --extraSmallFontSize: 11px;
+  --primaryColor: #fb6f44;
+  --textColor: #575757;
+  --textColorWithOpacity: rgba(87, 87, 87, 0.7);
+  --labelColor: rgba(87, 87, 87, 0.5);
+  --errorMessageColor: #ff5353;
+  --chatMessageBoxBackground: #f5f5f5;
+  --chatMessageIncomingBoxBackground: #575757;
+  --secondaryTextColor: #979797;
+  --lightTextColor: #ffffff;
+  --dialogBackground: #ffffff;
+  --cardBoxShadowColor: rgba(0, 0, 0, 0.1);
+  --horizontalLineColor: #dedede;
+  --errorColor: #ff4d4f;
+  --borderColor: #dddddd;
+  --borderColor1: #a8adb7;
+  --tableRowBorderColor: #c4c4c4;
+  --overlayBackground: rgba(255, 255, 255, 0.7);
+  --rowHoverBackground: #f5f5f5;
+  --imageBackground: #e6e6e6;
+  --discountBadgeBgColor: rgba(191, 228, 243, 0.8);
+}
