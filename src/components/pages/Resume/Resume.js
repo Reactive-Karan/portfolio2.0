@@ -2,15 +2,15 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../../MainLayout/Particles/Particles";
-import pdf from "../../../resources/Karan Mishra - Updated Resume_2022.pdf";
+import pdf from "../../../resources/Karan_Mishra_Updated_Resume_2022.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink = "../../../resources/Karan Mishra - Updated Resume_2022.pdf";
-
+const resumeLink =
+  "https://raw.githubusercontent.com/Reactive-Karan/portfolio2.0/blob/main/src/resources/Karan Mishra-Updated Resume_2022.pdf";
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
