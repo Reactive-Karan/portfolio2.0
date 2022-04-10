@@ -4,4 +4,5 @@ export const routes = {
   OTHER: "*",
   ABOUT: "/about",
   RESUME: "/resume",
+  PROJECTS: "/project",
 };

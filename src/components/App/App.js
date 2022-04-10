@@ -8,8 +8,9 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Preloader from "../MainLayout/PreLoader/Pre";
 import ScrollToTop from "../../utils/ScrollToTop";
-import About from "../pages/About/About";
-import ResumeNew from "../pages/Resume/Resume";
+import About from "../pages/About";
+import ResumeNew from "../pages/Resume";
+import Projects from "../pages/Projects";
 
 const App = () => {
   const [load, upadateLoad] = useState(true);
@@ -30,6 +31,7 @@ const App = () => {
           <Routes>
             <Route path={routes.ROOT} element={<Home />} />
             <Route path={routes.ABOUT} element={<About />} />
+            <Route path={routes.PROJECTS} element={<Projects />} />
             <Route path={routes.RESUME} element={<ResumeNew />} />
             <Route
               path={routes.OTHER}
