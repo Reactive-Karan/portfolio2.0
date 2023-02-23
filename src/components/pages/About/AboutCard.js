@@ -10,8 +10,6 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Karan Mishra </span>
             from <span className="purple"> Vadodara, India.</span>
-            <br />I am a junior pursuing BCA from IGNOU.
-            <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
